@@ -1,5 +1,4 @@
 # SRnet-and-SRNet-Heu-for-power-control
-code for Multicell Power Control under Rate Constraints with Deep Learning
 
 This code is for our paper:
 
@@ -7,7 +6,9 @@ Yinghan Li, Shengqian Han, Member, IEEE, Chenyang Yang, Senior Member, IEEE "Mul
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The traning dataset (fading channel samples) and test dataset set used in this code are saved in the  folder 'train' and 'test' respectively.
+The traning dataset (fading channel samples) and test dataset used in this code should be saved in the  folder 'train' and 'test' respectively.
+
+you can download the dataset: https://pan.baidu.com/s/1Tbm41j_rMWvr2yjnwnQTcg  password：7x53
 
 
 
