@@ -12,6 +12,9 @@ The traning dataset (fading channel samples) and test dataset used in this code 
 
 you can download the dataset: https://pan.baidu.com/s/1Tbm41j_rMWvr2yjnwnQTcg  password：7x53
 
+you can download the trained DNN model and get results directly for 3 cells: https://pan.baidu.com/s/1Oej-hAHEzcGvAFOdPGdC5g  password：ucf3 . Please unzip the compressed package to a folder with the same name and put the folder in the directory of the code.
+
+
 
 
 
