@@ -1,7 +1,7 @@
 
 
 import tensorflow as tf
-import SRNET_Multicell as SRNET
+import SRNET_Multiuser as SRNET
 
 import sys
 
