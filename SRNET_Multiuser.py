@@ -108,11 +108,11 @@ class PCNet(object):
 
         import h5py
         name = format(
-            './train/Fin_An2r250Edge_range0_3straint%d_Sample_H.mat' % (self.lambda_val * 10))
+            './data_multicell/Fin_An2r250Edge_range0_3straint%d_Sample_H.mat' % (self.lambda_val * 10))
         feature = h5py.File(name)  # 读取mat文件
         H =np.sqrt(np.transpose( feature['H'],[2,1,0]) ) # 读取mat文件中所有数据存储到array中
         name = format(
-            './traindata_multicell/Fin_An2r250Edge_range0_3straint%d_Sample_H2.mat' % (self.lambda_val * 10))
+            './data_multicell/Fin_An2r250Edge_range0_3straint%d_Sample_H2.mat' % (self.lambda_val * 10))
         feature = h5py.File(name)  # 读取mat文件
         H=np.concatenate([H,np.sqrt(np.transpose( feature['H'],[2,1,0]))],0 ) # 读取mat文件中所有数据存储到array中])
 
@@ -122,7 +122,7 @@ class PCNet(object):
 
         import h5py
         name = format(
-            './traindata_multicell/test_8%dr250Edge_range0_3_H.mat' % (self.lambda_val*10))
+            './data_multicell/test_8%dr250Edge_range0_3_H.mat' % (self.lambda_val*10))
         feature = h5py.File(name)  # 读取mat文件
         H = np.sqrt(np.transpose( feature['Sample_H'],[2,1,0]))   # 读取mat文件中所有数据存储到array中
         return H
